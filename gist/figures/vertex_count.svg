@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="418.35" viewBox="0 0 567.429 418.35" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+/Users/pagessin/Documents/Physics/Talks/2025/2025-05-12_odd_chain_tutorial/gist/figures/vertex_count.svg
+</title>
+<desc>
+Creator: ROOT Version 6.34.08
+CreationDate: Wed Apr 30 15:54:46 2025</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="417.85" fill="white"/>
+<rect x="57.1929" y="41.785" width="453.543" height="334.28" fill="white"/>
+<rect x="57.1929" y="41.785" width="453.543" height="334.28" fill="none" stroke="black"/>
+<rect x="57.1929" y="41.785" width="453.543" height="334.28" fill="white"/>
+<rect x="57.1929" y="41.785" width="453.543" height="334.28" fill="none" stroke="black"/>
+<path d="M57.1929,376.065h 30.2362v -2.97535h 15.1181v -2.97535h 15.1181v -5.9507h 15.1181v -23.8028h 15.1181v 8.92604h 15.1181v -23.8028h 15.1181v -20.8274h 15.1181v -50.5809h 15.1181v -23.8028h 15.1181v -50.5809h 15.1181v -44.6302h 15.1181v
+ -26.7781h 15.1181v -50.5809h 15.1181v 92.2358h 15.1181v -59.507h 15.1181v 44.6302h 15.1181v 11.9014h 15.1181v 62.4823h 15.1181v 8.92604h 15.1181v 65.4576h 15.1181v 59.507h 15.1181v 8.92604h 15.1181v 17.8521h 15.1181v -2.97535h 15.1181v 2.97535h
+ 15.1181v 5.9507h 15.1181v -2.97535h 15.1181v 2.97535h 15.1181" fill="none" stroke="#000099"/>
+<path d="M57.1929,376.065h 453.543" fill="none" stroke="black"/>
+<path d="M117.665,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M132.783,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M147.902,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M163.02,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M178.138,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M193.256,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M208.374,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M223.492,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M238.61,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M253.728,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M268.846,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M283.965,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M299.083,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M314.201,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M329.319,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M344.437,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M359.555,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M374.673,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M389.791,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M404.909,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M420.028,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M435.146,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M450.264,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M465.382,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M480.5,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M495.618,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M117.665,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M102.547,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M87.4291,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M72.311,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M57.1929,371.051v 5.0142" fill="none" stroke="black"/>
+<path d="M495.618,366.037v 10.0284" fill="none" stroke="black"/>
+<path d="M510.736,371.051v 5.0142" fill="none" stroke="black"/>
+<text xml:space="preserve" x="105.859" y="389.898" fill="black" font-size="13.9172" font-family="Helvetica">170
+</text>
+<text xml:space="preserve" x="181.831" y="389.898" fill="black" font-size="13.9172" font-family="Helvetica">175
+</text>
+<text xml:space="preserve" x="257.087" y="389.898" fill="black" font-size="13.9172" font-family="Helvetica">180
+</text>
+<text xml:space="preserve" x="333.06" y="389.898" fill="black" font-size="13.9172" font-family="Helvetica">185
+</text>
+<text xml:space="preserve" x="408.316" y="389.898" fill="black" font-size="13.9172" font-family="Helvetica">190
+</text>
+<text xml:space="preserve" x="484.289" y="389.898" fill="black" font-size="13.9172" font-family="Helvetica">195
+</text>
+<text xml:space="preserve" x="452.036" y="404.233" fill="black" font-size="13.9172" font-family="Helvetica">nRecoVtx
+</text>
+<path d="M57.1929,376.065v -334.28" fill="none" stroke="black"/>
+<path d="M70.7992,376.065h -13.6063" fill="none" stroke="black"/>
+<path d="M63.9961,361.189h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,346.312h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,331.435h -6.80315" fill="none" stroke="black"/>
+<path d="M70.7992,316.558h -13.6063" fill="none" stroke="black"/>
+<path d="M63.9961,301.682h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,286.805h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,271.928h -6.80315" fill="none" stroke="black"/>
+<path d="M70.7992,257.051h -13.6063" fill="none" stroke="black"/>
+<path d="M63.9961,242.175h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,227.298h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,212.421h -6.80315" fill="none" stroke="black"/>
+<path d="M70.7992,197.545h -13.6063" fill="none" stroke="black"/>
+<path d="M63.9961,182.668h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,167.791h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,152.914h -6.80315" fill="none" stroke="black"/>
+<path d="M70.7992,138.038h -13.6063" fill="none" stroke="black"/>
+<path d="M63.9961,123.161h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,108.284h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,93.4073h -6.80315" fill="none" stroke="black"/>
+<path d="M70.7992,78.5306h -13.6063" fill="none" stroke="black"/>
+<path d="M70.7992,78.5306h -13.6063" fill="none" stroke="black"/>
+<path d="M63.9961,63.6539h -6.80315" fill="none" stroke="black"/>
+<path d="M63.9961,48.7771h -6.80315" fill="none" stroke="black"/>
+<text xml:space="preserve" x="47.0871" y="381.297" fill="black" font-size="13.9172" font-family="Helvetica">0
+</text>
+<text xml:space="preserve" x="39.2031" y="321.809" fill="black" font-size="13.9172" font-family="Helvetica">20
+</text>
+<text xml:space="preserve" x="39.2031" y="262.321" fill="black" font-size="13.9172" font-family="Helvetica">40
+</text>
+<text xml:space="preserve" x="39.2031" y="202.833" fill="black" font-size="13.9172" font-family="Helvetica">60
+</text>
+<text xml:space="preserve" x="39.2031" y="143.345" fill="black" font-size="13.9172" font-family="Helvetica">80
+</text>
+<text xml:space="preserve" x="32.0359" y="83.8568" fill="black" font-size="13.9172" font-family="Helvetica">100
+</text>
+<text xml:space="preserve" x="245.62" y="20.785" fill="black" font-size="18.4216" font-family="Helvetica">nRecoVtx
+</text></svg>

@@ -1,0 +1,149 @@
+\mode<presentation>
+
+\RequirePackage{tikz}
+\RequirePackage{fontspec}
+\RequirePackage{pgfopts}
+\RequirePackage{microtype}
+
+\pgfkeys{/shiva/.cd,
+  .search also={
+    /shiva/inner,
+    /shiva/outer,
+    /shiva/color,
+    /shiva/font,
+  }
+}
+
+\usepackage{theme/beamerinnerthemeshiva}
+\usepackage{theme/beamerouterthemeshiva}
+\usepackage{theme/beamercolorthemeshiva}
+\usepackage{theme/beamerfontthemeshiva}
+
+\setbeamertemplate{navigation symbols}{}
+
+% \setsansfont{Helvetica}[
+% ItalicFont=Helvetica Oblique, 
+% BoldFont=Helvetica Bold,
+% BoldItalicFont=Helvetica Bold Oblique]
+
+\IfFontExistsTF{Helvetica}{%
+\setsansfont{Helvetica}[
+ItalicFont=* Oblique, 
+BoldFont=* Bold,
+BoldItalicFont=* Bold Oblique]%
+}{%
+\setsansfont{Arial}
+}
+
+
+\newfontfamily{\avenir}{Avenir}[
+  Path = fonts/avenir/,
+  UprightFont = Avenir-Roman-12.ttf,
+  BoldFont = Avenir-Black-03.ttf,
+  ItalicFont = Avenir-Oblique-11.ttf,
+  BoldItalicFont  = Avenir-BlackOblique-04.ttf
+]
+
+\setbeamerfont{title}{size=\fontsize{30pt}{30pt}, series=\bfseries, family=\avenir}
+\setbeamerfont{frametitle}{series=\bfseries, family=\avenir}
+
+
+
+\newcommand{\addheight}{\parbox{0pt}{\rule{0pt}{1em}}}
+\setbeamerfont*{block title}{family=\avenir,series=\bfseries\addheight}
+
+
+\setbeamertemplate{bibliography item}[text]
+\setbeamerfont{bibliography item}{size=\footnotesize}
+\setbeamerfont{bibliography entry author}{size=\footnotesize}
+\setbeamerfont{bibliography entry title}{size=\footnotesize}
+\setbeamerfont{bibliography entry location}{size=\footnotesize}
+\setbeamerfont{bibliography entry note}{size=\footnotesize}
+
+\mode<all>
+
+\ProcessPgfOptions{/shiva}
+
+
+\providecommand{\prmerged}{
+  \normalsize
+  \tikzsetnextfilename{prmerged}
+  % \tikzset{external/export next=false}
+  \hspace*{-1em}
+  \raisebox{-0.3\height}{
+  \begin{tikzpicture}[line width=1pt]
+    \node[fill=Purple,text=white,rounded corners=0.5em,inner sep=0.3em] (f) at (0,0) {\hspace{1.3em}\small Merged};
+    \begin{scope}[color=white,shift={($(f.west) + (0.7em,-0.3em)$)},scale=0.7]
+      \node[draw,circle,inner sep=0,minimum width=0.27em] (bl) at (0,0) {};
+      \node[draw,circle,inner sep=0,minimum width=0.27em] (mr) at (0.9em,0.4em) {};
+      \node[draw,circle,inner sep=0,minimum width=0.27em] (tl) at (0,1em) {};
+      \draw[shorten <=-0.1pt,shorten >=-0.1pt] (mr) to[in=-90,out=180] (tl);
+      \draw[shorten >=-0.1pt,shorten <=-0.1pt] (bl) -- (tl);
+    \end{scope}
+  \end{tikzpicture}
+  }
+}
+
+
+\providecommand{\propen}{
+  \normalsize
+  % \tikzset{external/export next=false}
+  \tikzsetnextfilename{propen}
+  \hspace*{-1em}
+  \raisebox{-0.3\height}{
+  \begin{tikzpicture}[line width=1pt]
+    \node[fill=LimeGreen,text=white,rounded corners=0.5em, inner sep=0.3em] (f) at (0,0) {\hspace{1.3em}\small Open};
+    \begin{scope}[color=white,shift={($(f.west) + (0.7em,-0.3em)$)},scale=0.7]
+      \tikzset{>={Triangle[angle=35:2pt 2]}}
+      \node[draw,circle,inner sep=0,minimum width=0.27em] (bl) at (0,0) {};
+      \node[draw,circle,inner sep=0,minimum width=0.27em] (br) at (0.9em,0) {};
+      \node[draw,circle,inner sep=0,minimum width=0.27em] (tl) at (0,1em) {};
+      \draw[->,shorten <=-0.1pt,shorten >=-0.1pt] (br) 
+        --++(0,0.7em) 
+        to[out=90,in=0] (tl);
+      \draw[shorten >=-0.1pt,shorten <=-0.1pt] (bl) -- (tl);
+    \end{scope}
+  \end{tikzpicture}
+}
+}
+
+\providecommand{\cc}[1]{\colorbox{Black!8}{\textcolor{Red}{\texttt{#1}}}}
+
+\newenvironment{infoblock}[1]{%
+  \setbeamercolor{title}{fg=shivablue}
+  \begin{block}{#1}}{\end{block}}
+
+\newenvironment{successblock}[1]{%
+  \setbeamercolor{block body}{bg=LimeGreen!30}
+  \setbeamercolor{block title}{bg=LimeGreen,fg=white}
+  \setbeamercolor{title}{fg=LimeGreen}
+  \begin{block}{#1}}{\end{block}}
+
+\newenvironment{warnblock}[1]{%
+  \setbeamercolor{block body}{bg=Orange!30}
+  \setbeamercolor{block title}{bg=Orange,fg=white}
+  \setbeamercolor{title}{fg=Orange}
+  \begin{block}{#1}}{\end{block}}
+
+\newenvironment{errorblock}[1]{%
+  \setbeamercolor{block body}{bg=alertred!20}
+  \setbeamercolor{block title}{bg=alertred}
+  \setbeamercolor{title}{fg=alertred}
+  \begin{block}{#1}}{\end{block}}
+
+\providecommand{\TODO}[1]{\textcolor{Red}{\textbf{TODO:} #1}}
+
+
+
+\newcommand{\footline}[1]{%
+\tikzset{external/export next=false}
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,minimum height=15pt] (f) at ($(current page.south west)+(5pt,1em-2pt)$) {
+    \tiny
+    #1
+  };
+  \draw [-] (f.north west) ++ (3pt,-2pt) --++ (0.25\pagewidth,0);
+\end{tikzpicture}%
+}
+\newcommand{\tsup}[1]{\textsuperscript{#1}}
+

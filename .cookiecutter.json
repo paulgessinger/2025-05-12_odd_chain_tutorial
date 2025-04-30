@@ -1,0 +1,15 @@
+{
+    "_checkout": null,
+    "_copy_without_render": [
+        "theme",
+        ".vscode"
+    ],
+    "_output_dir": "/Users/pagessin/Documents/Physics/Talks/2025",
+    "_repo_dir": "../talk-cookiecutter",
+    "_template": "../talk-cookiecutter",
+    "author": "Paul Gessinger",
+    "date": "2025-05-12",
+    "institute": "CERN",
+    "talk_slug": "2025-05-12_odd_chain_tutorial",
+    "title": "Example reconstruction chain walkthrough"
+}
